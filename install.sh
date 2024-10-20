@@ -24,7 +24,7 @@ brew bundle install
 mkdir ~/.nvm
 nvm install --lts
 
-# Symbolics
+# Symlink dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.wezterm.lua ~/.wezterm.lua
