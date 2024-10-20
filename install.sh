@@ -24,6 +24,9 @@ brew bundle install
 mkdir ~/.nvm
 nvm install --lts
 
-# Copy all dotfiles to home directory from 
-cp -r . ~
+# Symbolics
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.wezterm.lua ~/.wezterm.lua
+ln -s ~/.dotfiles/.config/starship.toml ~/.config/starship.toml
 
