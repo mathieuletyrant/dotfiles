@@ -1,0 +1,17 @@
+[user]
+  name = Mathieu Le Tyrant
+  email = 
+[push]
+  autoSetupRemote = true
+
+[alias]
+  undo= reset --soft HEAD^
+
+[core]
+  pager=delta
+
+[pull]
+  rebase=true
+
+[rebase]
+  autostash=true
