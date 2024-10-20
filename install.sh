@@ -25,8 +25,8 @@ mkdir ~/.nvm
 nvm install --lts
 
 # Symlink dotfiles
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.wezterm.lua ~/.wezterm.lua
-ln -s ~/.dotfiles/.config/starship.toml ~/.config/starship.toml
+ln -s ~/.dotfiles/home/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/home/.wezterm.lua ~/.wezterm.lua
+ln -s ~/.dotfiles/home/.config/starship.toml ~/.config/starship.toml
 
