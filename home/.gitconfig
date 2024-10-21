@@ -1,6 +1,7 @@
 [user]
   name = Mathieu Le Tyrant
   email = 
+
 [push]
   autoSetupRemote = true
 

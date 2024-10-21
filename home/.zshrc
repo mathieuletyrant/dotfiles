@@ -16,10 +16,6 @@ source $(brew --prefix nvm)/nvm.sh
 # FZF
 source <(fzf --zsh)
 
-# ZSH
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # EZA
 alias ls="eza --icons=always"
 
@@ -29,3 +25,7 @@ eval "$(starship init zsh)"
 # Zoxide
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+# ZSH
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
