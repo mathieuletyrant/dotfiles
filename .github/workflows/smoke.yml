@@ -9,6 +9,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: Make install.sh executable
+      run: chmod +x ./install.sh
     - name: Execute full install
       shell: bash
       run:  ./install.sh
