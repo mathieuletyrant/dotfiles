@@ -1,29 +1,41 @@
-# Dotfiles
+# Dotfiles 🛠️
 
-![example workflow](https://github.com/mathieuletyrant/dotfiles/actions/workflows/test.yml/badge.svg)
+![Test Workflow](https://github.com/mathieuletyrant/dotfiles/actions/workflows/test.yml/badge.svg)
 
-My configuration files, for Mac OS.
+Configuration files for macOS, optimized for productivity and ease of use.
 
-## Requirements
+## 🚀 Quick Start
 
-1. Homebrew
+1. Install Homebrew:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+2. Install Git and Stow:
+   ```bash
+   brew install git stow
+   ```
 
-2. Git & Stow
+3. Clone and set up:
+   ```bash
+   git clone https://github.com/mathieuletyrant/dotfiles.git ~/dotfiles
+   cd ~/dotfiles
+   sh install.sh
+   ```
 
-```bash
-brew install git stow
-```
+## 🧰 What's Included
 
-## Run
-1. Go on `~/`
-2. Git clone the repository `git clone https://github.com/mathieuletyrant/dotfiles.git`
-3. Go in the dotfiles folder `cd dotfiles`
-5. `sh install.sh`
+- Zsh configuration
+- Git aliases and settings
+- Custom macOS preferences
+- Homebrew package list
 
-## Applications not in homebrew
+## 📦 Additional Software
 
-1. https://www.kerlig.com
+Some applications are not available through Homebrew and need to be installed manually:
+
+- [Kerlig](https://www.kerlig.com) - Productivity tool
+
+---
+
+Last updated: October 21, 2024
