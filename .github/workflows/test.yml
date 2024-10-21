@@ -9,6 +9,10 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: Install Homebrew
+      run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    - name: Install Git & Stow
+      run: brew install git stow
     - name: Make install.sh executable
       run: chmod +x ./install.sh
     - name: Execute full install
