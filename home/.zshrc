@@ -11,6 +11,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # NVM
+export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
 # FZF
@@ -25,6 +26,7 @@ eval "$(starship init zsh)"
 # Zoxide
 eval "$(zoxide init zsh)"
 alias cd="z"
+
 
 # ZSH
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
