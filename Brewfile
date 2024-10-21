@@ -1,5 +1,4 @@
 brew 'git'
-brew 'git-delta'
 brew 'nvm'
 brew 'fzf'
 brew 'zsh-autosuggestions'
