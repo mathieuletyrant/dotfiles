@@ -8,19 +8,19 @@ jobs:
     runs-on: macOS-latest
     
     steps:
-    - uses: actions/checkout@v1
     - name: Install Homebrew
+      shell: bash
       run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    - name: Install Stow    
+    - name: Install Stow
       shell: bash
       run: brew install stow
-    - name: Make install.sh executable
-      run: chmod +x ./install.sh
+    - name: Clone repository
+      uses: actions/checkout@v2
     - name: Execute full install
       run:  ./install.sh
     - name: Cat ".zshrc"
       shell: bash  
       run: cat ~/.zshrc
-    - name: 'Cat .gitconfig'
+    - name: Run tests
       shell: bash
-      run: cat ~/.gitconfig
+      run: ./test.sh

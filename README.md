@@ -22,7 +22,6 @@ brew install git stow
 1. Go on `~/`
 2. Git clone the repository `git clone https://github.com/mathieuletyrant/dotfiles.git`
 3. Go in the dotfiles folder `cd dotfiles`
-4. `chmod +x ./install.sh`
 5. `sh install.sh`
 
 ## Applications not in homebrew

@@ -4,11 +4,13 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install applications
 brew bundle install
 
+pwd
+
 # Symlink using Stow
-stow git
-stow wezterm
-stow starship
-stow zsh
+stow git --adopt
+stow wezterm --adopt
+stow starship --adopt
+stow zsh --adopt
 
 echo "Done! Please restart your terminal."
 
