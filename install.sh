@@ -13,8 +13,6 @@ ln -sf ~/.dotfiles/home/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/home/.wezterm.lua ~/.wezterm.lua
 ln -sf ~/.dotfiles/home/.config/starship.toml ~/.config/starship.toml
 
-source ~/.zshrc
-
 # Install NVM
 # mkdir ~/.nvm
 # nvm install --lt
