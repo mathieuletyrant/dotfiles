@@ -4,8 +4,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install applications
 brew bundle install
 
-pwd
-
 # Symlink using Stow
 stow git --adopt
 stow wezterm --adopt

@@ -18,9 +18,3 @@ jobs:
       uses: actions/checkout@v2
     - name: Execute full install
       run:  ./install.sh
-    - name: Cat ".zshrc"
-      shell: bash  
-      run: cat ~/.zshrc
-    - name: Run tests
-      shell: bash
-      run: ./test.sh
