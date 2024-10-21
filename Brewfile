@@ -10,6 +10,7 @@ brew 'tig'
 brew 'eza'
 
 cask 'visual-studio-code'
+cask 'webstorm'
 cask 'arc'
 cask 'wezterm'
 cask 'appcleaner'
