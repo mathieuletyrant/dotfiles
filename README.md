@@ -20,22 +20,21 @@ brew install git stow
 ```bash
 git clone https://github.com/mathieuletyrant/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-sh install.sh
+sh ./install.sh
+```
+
+4. Setup MacOS default settings
+```bash
+sh ./macos.sh
 ```
 
 4. Import Raycast configuration:
 
-4. Run a test
-```bash
-sh test.sh
-```
-
 ## 🧰 What's Included
 
-- Zsh configuration
-- Git aliases and settings
 - Custom macOS preferences
 - Homebrew package list
+- Some configurations (ZSH, Git, Wezterm, Starship)
 
 ## 📦 Additional Software
 

@@ -27,7 +27,6 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
-
 # ZSH
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
