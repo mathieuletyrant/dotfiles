@@ -6,7 +6,17 @@
   autoSetupRemote = true
 
 [alias]
-  undo= reset --soft HEAD^
+  # Unstage last commit
+	unstage = reset --soft HEAD~
+
+	# Undo last commit
+	undo = reset --hard HEAD~
+
+	# Switch to a branch, creating it if necessary
+	go = switch -c
+
+	# yolo (commit with random message)!!!
+	yolo = !git commit -am \"$(curl --silent --fail https://whatthecommit.com/index.txt)\" && git push origin
 
 [core]
   pager=delta
