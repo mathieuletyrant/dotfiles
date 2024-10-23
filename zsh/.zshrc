@@ -20,8 +20,8 @@ source <(fzf --zsh)
 # EZA
 alias ls="eza --icons=always"
 
-# Starship
-eval "$(starship init zsh)"
+# Oh My Posh
+eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"
 
 # Zoxide
 eval "$(zoxide init zsh)"

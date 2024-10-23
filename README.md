@@ -34,7 +34,7 @@ sh ./macos.sh
 
 - Custom macOS preferences
 - Homebrew package list
-- Some configurations (ZSH, Git, Wezterm, Starship)
+- Some configurations (ZSH, Git, Wezterm, Oh my Posh)
 
 ## 📦 Additional Software
 

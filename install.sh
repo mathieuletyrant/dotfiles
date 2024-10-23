@@ -9,8 +9,8 @@ echo "Applications installed!"
 # Symlink using Stow
 stow git --adopt
 stow wezterm --adopt
-stow starship --adopt
 stow zsh --adopt
+stow oh-my-posh --adopt
 echo "Symlinks created!"
 
 echo "Done! Please restart your terminal."
