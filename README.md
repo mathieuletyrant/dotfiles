@@ -41,7 +41,3 @@ sh ./macos.sh
 Some applications are not available through Homebrew and need to be installed manually:
 
 - [Kerlig](https://www.kerlig.com) - Productivity tool
-
----
-
-Last updated: October 21, 2024
