@@ -36,10 +36,10 @@ killall Finder &> /dev/null
 defaults write com.apple.dock show-recents -bool false
 
 # Move dock to right
-defaults write com.apple.dock orientation right
+defaults write com.apple.dock orientation bottom
 
 # Enable autohide
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 # Speed transition
 defaults write com.apple.dock autohide-delay -float 0
