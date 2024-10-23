@@ -7,7 +7,7 @@
 echo "Quitting System Preferences..."
 osascript -e 'tell application "System Preferences" to quit'
 
-# Save screenshots in JPG format (other options: BMP, GIF, JPG, PDF, TIFF)
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
 #  Finder show path bar
@@ -35,6 +35,16 @@ killall Finder &> /dev/null
 # Disable recent apps in Dock
 defaults write com.apple.dock show-recents -bool false
 
+# Move dock to right
+defaults write com.apple.dock orientation right
+
+# Enable autohide
+defaults write com.apple.dock autohide -bool true
+
+# Speed transition
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -float 0.1
+
 killall Dock &> /dev/null
 
 ###############################################################################
@@ -44,5 +54,12 @@ killall Dock &> /dev/null
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+###############################################################################
+# Other
+###############################################################################
+
+# Open App from 3rd-party developer
+defaults write /Library/Preferences/com.apple.security GKAutoRearm -bool NO
 
 echo "Done! Please restart your computer."
