@@ -1,3 +1,5 @@
+tap 'jandedobbeleer/oh-my-posh/oh-my-posh'
+
 brew 'git'
 brew 'nvm'
 brew 'fzf'
