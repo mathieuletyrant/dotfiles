@@ -4,14 +4,19 @@ echo "Oh My Zsh installed!"
 
 # Install applications
 brew bundle install
-echo "Applications installed!"
+echo "=> Applications installed!"
 
 # Symlink using Stow
 stow git --adopt
 stow wezterm --adopt
 stow zsh --adopt
 stow oh-my-posh --adopt
-echo "Symlinks created!"
+echo "=> Symlinks created!"
 
-echo "Done! Please restart your terminal."
+echo "====="
+echo "If you want to have basic MAC settings, run the following command:"
+echo "sh macos.sh"
+echo "====="
+
+echo " => Done! Please restart your terminal."
 
