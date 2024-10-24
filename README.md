@@ -32,9 +32,9 @@ sh ./macos.sh
 
 ## 🧰 What's Included
 
-- Custom macOS preferences
+- Customized macOS settings
 - Homebrew package list
-- Some configurations (ZSH, Git, Wezterm, Oh my Posh)
+- Configuration files for ZSH, Git, WezTerm, and Oh My Posh
 
 ## 📦 Additional Software
 
