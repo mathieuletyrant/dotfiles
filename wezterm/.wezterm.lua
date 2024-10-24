@@ -15,7 +15,7 @@ config.leader = { key = "b", mods = "OPT", timeout_milliseconds = 1500 }
 
 config.font = wezterm.font("MesloLGS Nerd Font Mono")
 
-config.color_scheme = 'Ayu Mirage (Gogh)'
+config.color_scheme = 'Monokai Remastered'
 config.default_cursor_style = 'BlinkingBar'
 config.initial_rows = 24
 config.initial_cols = 90
@@ -35,18 +35,6 @@ config.keys = {
   { key = "n", mods = "CMD", action = act.SpawnWindow },
   { key = "v", mods = "CMD", action = act.PasteFrom("Clipboard") },
   { key = "k", mods = "CMD", action = act.ResetTerminal },
-  {
-    key = ",",
-    mods = "LEADER",
-    action = act.PromptInputLine({
-      description = "Enter new name for tab",
-      action = wezterm.action_callback(function(window, pane, line)
-        if line then
-          window:active_tab():set_title(line)
-        end
-      end),
-    }),
-  },
 }
 
 config.mouse_bindings = {
