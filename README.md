@@ -28,12 +28,13 @@ sh ./install.sh
 sh ./macos.sh
 ```
 
-4. Import Raycast configuration:
-
-5. Setup the file `gitconfig.local` by running the command:
+5. Generate your local Git configuration:
 ```bash
-sh gitconfig.sh
+sh ./gitconfig.sh
 ```
+The script will ask for your SSH signing key and create `~/.gitconfig.local`.
+
+6. Import Raycast configuration:
 
 ## 🧰 What's Included
 
