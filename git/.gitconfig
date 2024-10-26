@@ -2,6 +2,9 @@
   name = Mathieu Le Tyrant
   email = mathieu.letyrant@gmail.com
 
+[include]
+	path = ~/.gitconfig.local
+
 [push]
   autoSetupRemote = true
 
