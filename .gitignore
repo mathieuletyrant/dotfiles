@@ -1,0 +1,19 @@
+# Security and private files
+.ssh/
+.gnupg/
+.aws/
+.kube/
+*.pem
+*.key
+*.gpg
+.gitconfig.local
+.netrc
+
+# API tokens and secrets
+.env
+.env.*
+*.token
+.npmrc
+.yarnrc
+.boto
+.composer/auth.json

@@ -30,19 +30,9 @@ sh ./macos.sh
 
 4. Import Raycast configuration:
 
-5. Create gitconfig.local `touch ~/.gitconfig.local` with inside:
-```
-[user]
-	signingkey = <KEY>
-
-[gpg]
-	format = ssh
-
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-
-[commit]
-	gpgsign = true
+5. Setup the file `gitconfig.local` by running the command:
+```bash
+sh gitconfig.sh
 ```
 
 ## 🧰 What's Included
