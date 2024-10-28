@@ -12,7 +12,7 @@ brew 'eza'
 
 cask 'visual-studio-code'
 cask 'webstorm'
-cask 'arc'
+# cask 'arc'
 cask 'zen-browser'
 cask 'wezterm'
 cask 'appcleaner'
