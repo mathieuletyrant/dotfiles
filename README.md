@@ -34,7 +34,9 @@ sh ./gitconfig.sh
 ```
 The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 
-6. Import Raycast configuration:
+6. Import Raycast configuration
+
+7. Update Webstorm configuration (keymap, console font)
 
 ## 🧰 What's Included
 

@@ -1,11 +1,9 @@
-# Oh My ZSH
+# Essential Configs
 export ZSH="$HOME/.oh-my-zsh"
-# plugins=()
 source $ZSH/oh-my-zsh.sh
+plugins=()
 
 export LANG=en_US.UTF-8
-
-# NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
