@@ -1,31 +1,34 @@
 [user]
-  name = Mathieu Le Tyrant
-  email = mathieu.letyrant@gmail.com
+    name = Mathieu Le Tyrant
+    email = mathieu.letyrant@gmail.com
 
 [include]
-	path = ~/.gitconfig.local
+    path = ~/.gitconfig.local
 
 [push]
-  autoSetupRemote = true
+    autoSetupRemote = true
 
 [alias]
-  # Unstage last commit
-	unstage = reset --soft HEAD~
+    # Unstage last commit
+    unstage = reset --soft HEAD~
 
-	# Undo last commit
-	undo = reset --hard HEAD~
+    # Undo last commit
+    undo = reset --hard HEAD~
 
-	# Switch to a branch, creating it if necessary
-	go = switch -c
+    # Switch to a branch, creating it if necessary
+    go = switch -c
 
-	# yolo (commit with random message)!!!
-	yolo = !git commit -am \"$(curl --silent --fail https://whatthecommit.com/index.txt)\" && git push origin
+    # yolo (commit with random message)!!!
+    yolo = !git commit -am \"$(curl --silent --fail https://whatthecommit.com/index.txt)\" && git push origin
+
+    # Show the last commit
+    last = log -1 HEAD
 
 [core]
-  pager=delta
+    pager=delta
 
 [pull]
-  rebase=true
+    rebase=true
 
 [rebase]
-  autostash=true
+    autostash=true

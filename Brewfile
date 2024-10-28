@@ -1,6 +1,6 @@
 tap 'jandedobbeleer/oh-my-posh/oh-my-posh'
 
-brew 'git'
+brew 'git-delta'
 brew 'nvm'
 brew 'fzf'
 brew 'zsh-autosuggestions'
