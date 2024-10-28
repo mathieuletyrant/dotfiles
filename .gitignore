@@ -17,3 +17,7 @@
 .yarnrc
 .boto
 .composer/auth.json
+
+# IDE and editor files
+.idea/
+.vscode/

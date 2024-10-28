@@ -38,8 +38,6 @@ EOF
 # Check if creation was successful
 if [ $? -eq 0 ]; then
     echo "File ~/.gitconfig.local has been created successfully"
-    echo "File content:"
-    cat ~/.gitconfig.local
 else
     echo "Error creating file"
     exit 1
