@@ -21,3 +21,6 @@
 # IDE and editor files
 .idea/
 .vscode/
+
+# Raycast
+1password/.config/raycast/
