@@ -1,4 +1,4 @@
-tap 'jandedobbeleer/oh-my-posh/oh-my-posh'
+tap 'jandedobbeleer/oh-my-posh'
 
 brew 'git-delta'
 brew 'nvm'
