@@ -38,6 +38,7 @@ The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 
 7. Update Webstorm configuration (keymap, console font)
 
+
 ## 🧰 What's Included
 
 - Customized macOS settings
@@ -49,3 +50,4 @@ The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 Some applications are not available through Homebrew and need to be installed manually:
 
 - [Kerlig](https://www.kerlig.com) - Productivity tool
+- [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) - Mouse controler
