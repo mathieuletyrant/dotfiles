@@ -28,7 +28,13 @@
     pager=delta
 
 [pull]
+    # Rebase instead of merge
     rebase=true
 
 [rebase]
+    # Preserve merge commits during rebase
     autostash=true
+
+[help]
+	# Automatically correct and execute mistyped commands.
+	autocorrect = 1
