@@ -20,4 +20,3 @@ echo "sh macos.sh"
 echo "====="
 
 echo " => Done! Please restart your terminal."
-
