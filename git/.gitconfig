@@ -38,6 +38,3 @@
 [help]
 	# Automatically correct and execute mistyped commands.
 	autocorrect = 1
-
-[url "ssh://git@github.com/"]
-    insteadOf = https://github.com/
