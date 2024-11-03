@@ -62,4 +62,8 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # Open App from 3rd-party developer
 defaults write /Library/Preferences/com.apple.security GKAutoRearm -bool NO
 
+# Enable Spotify as default music player
+defaults write digital.twisted.noTunes replacement /Applications/Spotify.app
+
 echo "Done! Please restart your computer."
+
