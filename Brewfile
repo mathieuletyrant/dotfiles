@@ -1,5 +1,6 @@
 tap 'jandedobbeleer/oh-my-posh'
 tap 'pakerwreah/calendr'
+tab 'mongodb/brew'
 
 brew 'git-delta'
 brew 'nvm'
@@ -10,6 +11,7 @@ brew 'jandedobbeleer/oh-my-posh/oh-my-posh'
 brew 'zoxide'
 brew 'tig'
 brew 'eza'
+brew 'mongodb-database-tools' # mongodump and mongorestore
 
 cask 'visual-studio-code'
 cask 'webstorm'
