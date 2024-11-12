@@ -11,7 +11,7 @@ stow git --adopt
 stow wezterm --adopt
 stow zsh --adopt
 stow oh-my-posh --adopt
-stow 1password --adopt
+stow config --adopt
 echo "=> Symlinks created!"
 
 echo "====="

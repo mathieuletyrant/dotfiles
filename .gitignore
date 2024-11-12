@@ -22,9 +22,9 @@
 .idea/
 .vscode/
 
-# Raycast
-1password/.config/raycast/
-1password/.config/github-copilot
-
-# 1Password
-1password/.config/op
+# Config folder
+config/.config/raycast/
+config/.config/github-copilot
+config/.config/op
+config/.config/op/c
+config/.config/configstore
