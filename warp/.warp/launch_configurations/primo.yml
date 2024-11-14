@@ -7,10 +7,18 @@ windows:
             - split_direction: vertical
               panes:
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+                  commands:
+                    - exec: yarn workspace company-server start
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+                  commands:
+                    - exec: yarn w:codegen
             - split_direction: vertical
               panes:
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+                  commands:
+                    - exec: yarn workspace cockpit-ui start
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+        color: red
       - layout:
           cwd: /Users/mathieuletyrant
+        color: green
