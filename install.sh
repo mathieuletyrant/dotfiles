@@ -12,6 +12,7 @@ stow git --adopt
 stow zsh --adopt
 stow oh-my-posh --adopt
 stow config --adopt
+stow warp --adopt
 echo "=> Symlinks created!"
 
 echo "====="

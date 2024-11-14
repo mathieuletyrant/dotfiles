@@ -1,0 +1,16 @@
+name: Primo
+windows:
+  - tabs:
+      - layout:
+          split_direction: horizontal
+          panes:
+            - split_direction: vertical
+              panes:
+                - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+                - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+            - split_direction: vertical
+              panes:
+                - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+                - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
+      - layout:
+          cwd: /Users/mathieuletyrant
