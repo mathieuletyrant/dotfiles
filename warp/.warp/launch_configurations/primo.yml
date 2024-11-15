@@ -8,7 +8,7 @@ windows:
               panes:
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
                   commands:
-                    - exec: yarn workspace company-server start
+                    - exec: yarn workspace company-server start:debug
                 - cwd: /Users/mathieuletyrant/Documents/primo/sourcehub
                   commands:
                     - exec: yarn w:codegen
