@@ -24,6 +24,9 @@
     # Show the last commit
     last = log -1 HEAD
 
+    # Commit on last commit and push
+	fixup = !git commit --amend --no-edit && git push --force-with-lease
+
 [core]
     pager=delta
 
