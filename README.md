@@ -38,6 +38,13 @@ The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 
 7. Update Webstorm configuration (keymap, console font)
 
+## ⁉️ How to
+
+### Export brew packages
+```bash
+brew bundle dump --force --global
+```
+
 
 ## 🧰 What's Included
 
