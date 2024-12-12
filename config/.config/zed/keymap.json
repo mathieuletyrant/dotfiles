@@ -10,7 +10,8 @@
     "context": "Workspace",
     "bindings": {
       "cmd-t": "workspace::ToggleBottomDock",
-      "cmd-alt-b": "workspace::ToggleRightDock"
+      "cmd-alt-b": "workspace::ToggleRightDock",
+      "cmd-alt-p": "projects::OpenRecent"
     }
   },
   {

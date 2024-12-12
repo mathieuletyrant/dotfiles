@@ -19,7 +19,7 @@
   "ui_font_family": "MesloLGL Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "Atelier Sulphurpool Dark",
+    "light": "Catppuccin Macchiato",
     "dark": "One Dark"
   },
   "terminal": {
