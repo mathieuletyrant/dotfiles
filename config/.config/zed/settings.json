@@ -23,6 +23,8 @@
     "dark": "One Dark"
   },
   "terminal": {
-    "font_family": "MesloLGL Nerd Font"
+    "font_family": "MesloLGL Nerd Font",
+    "cursor_shape": "bar",
+    "font_size": 11
   }
 }
