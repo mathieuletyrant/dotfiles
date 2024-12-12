@@ -22,6 +22,9 @@
 .idea/
 .vscode/
 
+# ZED
+config/.config/zed/conversations/
+
 # Config folder
 config/.config/raycast/
 config/.config/github-copilot
