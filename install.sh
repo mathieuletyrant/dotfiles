@@ -3,7 +3,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 echo "=> Oh My Zsh installed!"
 
 # Install applications
-brew bundle install
+brew bundle install --global
 echo "=> Applications installed!"
 
 # Symlink using Stow
@@ -13,6 +13,7 @@ stow zsh --adopt
 stow oh-my-posh --adopt
 stow config --adopt
 stow warp --adopt
+stow brew --adopt
 echo "=> Symlinks created!"
 
 echo "====="

@@ -7,12 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "ui_font_size": 12,
   "buffer_font_size": 12,
   "ui_font_family": "MesloLGL Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Atelier Sulphurpool Dark",
     "dark": "One Dark"
   },
   "terminal": {
