@@ -9,7 +9,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-t": "workspace::ToggleBottomDock"
+      "cmd-t": "workspace::ToggleBottomDock",
+      "cmd-alt-b": "workspace::ToggleRightDock"
     }
   },
   {
