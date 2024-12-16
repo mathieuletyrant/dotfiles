@@ -27,6 +27,9 @@
     # Commit on last commit and push
 	fixup = !git commit --amend --no-edit && git push --force-with-lease
 
+    # Alias for git switch
+    s = switch
+
 [core]
     pager=delta
 
