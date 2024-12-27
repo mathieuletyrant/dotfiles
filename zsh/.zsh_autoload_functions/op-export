@@ -18,20 +18,11 @@ fi
 
 local item="$1"
 
-# Get the item details from 1Password
-local result=$(op item get "$item" --format json)
-
-if [[ $? -ne 0 ]]; then
-  echo "Failed to get item '$item' from 1Password"
-  return 1
-fi
-
-
 # Process each field in the item
 echo "Exporting credentials from 1Password item: $item"
 
-local name=$(echo $result | jq -r '.fields[] | select(.label == "username") | .value')
-local credential=$(echo $result | jq -r '.fields[] | select(.label == "credential") | .value')
+local name=$(op item get "$item" --fields username)
+local credential=$(op item get "$item" --fields credential --reveal)
 
 if [[ -n "$name" && -n "$credential" ]]; then
   export "$name"="$credential"
