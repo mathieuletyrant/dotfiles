@@ -45,6 +45,19 @@ The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 brew bundle dump --force --global
 ```
 
+### Use 1Password CLI integration
+```bash
+# Export credentials from 1Password item to environment variables
+op-export <item-name-or-id>
+# Example: op-export "Open router"
+```
+
+### Reload ZSH functions
+```bash
+# Reload a specific autoloaded function
+reload <function-name>
+# Example: reload op-export
+```
 
 ## 🧰 What's Included
 
