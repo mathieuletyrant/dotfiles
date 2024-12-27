@@ -7,6 +7,9 @@ export LANG=en_US.UTF-8
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# Credentials
+# export OPEN_ROUTER_API_KEY=$(op read "op://Personal/Open router/credential")
+
 # FZF
 source <(fzf --zsh)
 
