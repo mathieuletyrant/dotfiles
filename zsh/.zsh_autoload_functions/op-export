@@ -26,5 +26,5 @@ local credential=$(op item get "$item" --fields credential --reveal)
 
 if [[ -n "$name" && -n "$credential" ]]; then
   export "$name"="$credential"
-  echo "Exported: $name=${credential:0:5}*****"
+  echo "Exported: $name=${credential:0:15}*****"
 fi
