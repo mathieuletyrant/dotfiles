@@ -1,0 +1,28 @@
+# Ghostty Configuration File
+# Reference: https://ghostty.org/docs/config/reference
+# Theme and Appearance
+theme = GruvboxDark
+font-size = 15
+window-width = 500
+window-height = 500
+confirm-close-surface = false
+macos-titlebar-style = tabs
+window-save-state = always
+cursor-style = bar
+
+# Window Padding and Layout
+window-padding-x = 10
+window-padding-y = 20
+window-padding-balance = true
+window-save-state = always
+
+# Clipboard and Selection
+clipboard-paste-protection = true
+copy-on-select = false
+
+# Shell Integration
+shell-integration-features = no-cursor
+
+# Mouse Behavior
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
