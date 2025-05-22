@@ -31,3 +31,5 @@ config/.config/github-copilot
 config/.config/op
 config/.config/op/c
 config/.config/configstore
+config/.config/stripe
+config/.config/spicetify
