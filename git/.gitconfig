@@ -32,6 +32,9 @@
 
 [core]
     pager=delta
+    compression=9
+    whitespace=error
+    preloadindex=true
 
 [pull]
     # Rebase instead of merge
@@ -44,3 +47,8 @@
 [help]
 	# Automatically correct and execute mistyped commands.
 	autocorrect = 1
+
+[status]
+    branch=true
+    showStash=true
+    showUntrackedFiles=true
