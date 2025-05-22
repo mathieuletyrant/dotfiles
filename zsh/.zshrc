@@ -36,6 +36,7 @@ alias gl="git log --oneline"
 alias gco="git checkout"
 alias gbr="git branch"
 alias gba="git branch --all"
+alias gs="git switch"
 
 # ZSH
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
