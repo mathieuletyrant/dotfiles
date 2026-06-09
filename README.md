@@ -36,7 +36,7 @@ The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 
 6. Import Raycast configuration
 
-7. Update Webstorm configuration (keymap, console font)
+7. Update VSCode configuration (keymap, settings, extensions)
 
 ## ⁉️ How to
 
@@ -63,7 +63,7 @@ reload <function-name>
 
 - Customized macOS settings
 - Homebrew package list
-- Configuration files for ZSH, Git, WezTerm, and Oh My Posh
+- Configuration files for ZSH, Git, Ghostty, and Oh My Posh
 
 ## 📦 Additional Software
 
