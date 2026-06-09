@@ -34,9 +34,7 @@ sh ./gitconfig.sh
 ```
 The script will ask for your SSH signing key and create `~/.gitconfig.local`.
 
-6. Import Raycast configuration
-
-7. Update VSCode configuration (keymap, settings, extensions)
+6. Adjust VSCode settings & keybindings manually (extensions are installed automatically by `brew bundle`)
 
 ## ⁉️ How to
 
@@ -64,10 +62,3 @@ reload <function-name>
 - Customized macOS settings
 - Homebrew package list
 - Configuration files for ZSH, Git, Ghostty, and Oh My Posh
-
-## 📦 Additional Software
-
-Some applications are not available through Homebrew and need to be installed manually:
-
-- [Kerlig](https://www.kerlig.com) - Productivity tool
-- [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) - Mouse controler
