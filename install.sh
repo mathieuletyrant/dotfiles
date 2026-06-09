@@ -11,7 +11,7 @@ stow git --adopt
 # stow wezterm --adopt
 stow zsh --adopt
 stow oh-my-posh --adopt
-stow config --adopt
+stow config --adopt --no-folding
 stow warp --adopt
 stow brew --adopt
 echo "=> Symlinks created!"
