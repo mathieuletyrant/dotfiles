@@ -28,6 +28,7 @@
 # ZED
 config/.config/zed/conversations/
 config/.config/zed/settings_backup.json
+config/.config/zed/prompts/
 lock.mdb
 
 # Config folder
