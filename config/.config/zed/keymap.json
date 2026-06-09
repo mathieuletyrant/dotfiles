@@ -11,11 +11,11 @@
     "bindings": {
       "cmd-t": "workspace::ToggleBottomDock",
       "cmd-alt-b": "workspace::ToggleRightDock",
-      "cmd-alt-p": "projects::OpenRecent"
-    }
+      "cmd-alt-p": "projects::OpenRecent",
+    },
   },
   {
     "context": "Editor",
-    "bindings": {}
-  }
+    "bindings": {},
+  },
 ]

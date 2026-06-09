@@ -34,6 +34,7 @@ alias gp="git push"
 alias gpl="git pull --rebase"
 alias gl="git log --oneline"
 alias gco="git checkout"
+alias gf="git fetch"
 alias gbr="git branch"
 alias gba="git branch --all"
 alias gs="git switch"
@@ -41,3 +42,16 @@ alias gs="git switch"
 # ZSH
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# bun completions
+[ -s "/Users/mathieuletyrant/.bun/_bun" ] && source "/Users/mathieuletyrant/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+. "$HOME/.local/bin/env"
+
+alias claude-mem='bun "/Users/mathieuletyrant/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
+
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
