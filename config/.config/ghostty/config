@@ -1,7 +1,7 @@
 # Ghostty Configuration File
 # Reference: https://ghostty.org/docs/config/reference
 # Theme and Appearance
-theme = Ayu Mirage
+theme = Havn Skumring
 font-size = 15
 window-width = 500
 window-height = 500
