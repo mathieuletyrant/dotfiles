@@ -1,0 +1,6 @@
+[projects."github.com/getprimo/sourcehub"]
+approved-commands = [
+    "wt step copy-ignored",
+    "yarn install --frozen-lockfile || yarn install",
+    "yarn install",
+]
