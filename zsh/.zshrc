@@ -50,8 +50,8 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-. "$HOME/.local/bin/env"
+[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 
-alias claude-mem='bun "/Users/mathieuletyrant/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
+alias claude-mem='bun "$HOME/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
