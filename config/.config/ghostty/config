@@ -3,6 +3,12 @@
 # Theme and Appearance
 theme = Havn Skumring
 font-size = 15
+
+# Translucency + background blur (macOS)
+background-opacity = 0.92
+background-blur = 30
+macos-window-shadow = true
+unfocused-split-opacity = 0.85
 window-width = 500
 window-height = 500
 confirm-close-surface = false

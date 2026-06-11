@@ -18,7 +18,7 @@ source <(fzf --zsh)
 alias ls="eza --icons=always"
 
 # Oh My Posh
-eval "$(oh-my-posh init zsh --config ~/jandedobbeleer.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/dotfiles/oh-my-posh/clean-minimal.omp.json)"
 
 # Zoxide
 eval "$(zoxide init zsh)"
@@ -43,9 +43,6 @@ alias gs="git switch"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# bun completions
-[ -s "/Users/mathieuletyrant/.bun/_bun" ] && source "/Users/mathieuletyrant/.bun/_bun"
-
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
@@ -55,3 +52,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 alias claude-mem='bun "$HOME/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+
+# Created by `pipx` on 2026-06-11 13:06:46
+export PATH="$PATH:/Users/mathieu/.local/bin"
