@@ -20,11 +20,7 @@ alias ls="eza --icons=always"
 # Oh My Posh
 eval "$(oh-my-posh init zsh --config ~/dotfiles/oh-my-posh/clean-minimal.omp.json)"
 
-# Zoxide
-eval "$(zoxide init zsh)"
-alias cd="z"
-
-# Alias for git status
+# Alias for git
 alias gs="git status --short"
 alias gd="git diff"
 alias ga="git add"
@@ -37,11 +33,7 @@ alias gco="git checkout"
 alias gf="git fetch"
 alias gbr="git branch"
 alias gba="git branch --all"
-alias gs="git switch"
-
-# ZSH
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias gsw="git switch"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -55,3 +47,11 @@ if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)
 
 # Created by `pipx` on 2026-06-11 13:06:46
 export PATH="$PATH:/Users/mathieu/.local/bin"
+
+# ZSH (syntax-highlighting must be sourced near the end)
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Zoxide (must be initialized at the very end)
+eval "$(zoxide init zsh)"
+alias cd="z"

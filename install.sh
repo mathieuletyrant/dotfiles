@@ -7,6 +7,7 @@ stow zsh
 stow oh-my-posh
 stow config --no-folding
 stow brew
+stow claude --no-folding
 echo "=> Symlinks created!"
 
 # Install Oh My Zsh (unattended; keep our own .zshrc and don't spawn a subshell).
@@ -20,6 +21,11 @@ echo "=> Oh My Zsh installed!"
 # Install applications from the now-linked global Brewfile
 brew bundle install --global
 echo "=> Applications installed!"
+
+# rtk comes from the Brewfile; writes ~/.claude/RTK.md + Claude Code hook.
+# Safe to re-run, and keeps the stowed ~/.claude/CLAUDE.md symlink intact.
+rtk init -g --auto-patch
+echo "=> rtk initialized!"
 
 echo "====="
 echo "If you want to have basic MAC settings, run the following command:"
