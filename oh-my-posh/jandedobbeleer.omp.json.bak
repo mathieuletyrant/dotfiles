@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "background": "#12141a",
+    "black": "#12141a",
+    "blue": "#78dce8",
+    "brightBlack": "#404658",
+    "brightBlue": "#61eeff",
+    "brightCyan": "#61ffcf",
+    "brightGreen": "#a9f65c",
+    "brightMagenta": "#fd7df4",
+    "brightRed": "#ff6764",
+    "brightWhite": "#ffffff",
+    "brightYellow": "#ffd866",
+    "cyan": "#78e8c6",
+    "foreground": "#a9aec1",
+    "green": "#a9dc76",
+    "magenta": "#e991e3",
+    "orange": "#fc9867",
+    "purple": "#ab9df2",
+    "red": "#fc6a67",
+    "white": "#c6cad7",
+    "yellow": "#ffd866"
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "style": "diamond",
+          "leading_diamond": "\u256d\u2500\ue0b6",
+          "template": "\uf120 {{ .Name }} ",
+          "foreground": "p:black",
+          "background": "p:green",
+          "type": "shell"
+        },
+        {
+          "style": "diamond",
+          "template": "<parentBackground>\ue0b0</> \uf292 ",
+          "foreground": "p:black",
+          "background": "p:red",
+          "type": "root"
+        },
+        {
+          "properties": {
+            "folder_icon": " \uf07b ",
+            "home_icon": "\ue617",
+            "style": "folder"
+          },
+          "style": "powerline",
+          "template": " \uf07b\uea9c {{ .Path }} ",
+          "foreground": "p:black",
+          "powerline_symbol": "\ue0b0",
+          "background": "p:purple",
+          "type": "path"
+        },
+        {
+          "properties": {
+            "branch_icon": "\ue725 ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} ",
+          "foreground": "p:black",
+          "powerline_symbol": "\ue0b0",
+          "background": "p:yellow",
+          "type": "git"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "style": "plain",
+          "template": "\u2570\u2500",
+          "foreground": "p:green",
+          "background": "",
+          "type": "text"
+        },
+        {
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "\ue285\ueab6 ",
+          "foreground": "#e0f8ff",
+          "background": "",
+          "type": "status",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ef5350{{ end }}"
+          ]
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3,
+  "auto_upgrade": false
+}

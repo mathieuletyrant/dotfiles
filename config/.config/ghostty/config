@@ -1,30 +1,60 @@
 # Ghostty Configuration File
 # Reference: https://ghostty.org/docs/config/reference
-# Theme and Appearance
+
+# ── Theme & Font ──────────────────────────────────────────────
 theme = Havn Skumring
 font-size = 15
 
-# Translucency + background blur (macOS)
+# ── Window appearance (macOS) ─────────────────────────────────
+# legere translucence + flou de l'arriere-plan
 background-opacity = 0.92
 background-blur = 30
 macos-window-shadow = true
+# assombrit les splits inactifs
 unfocused-split-opacity = 0.85
+macos-titlebar-style = tabs
+# couleurs plus riches sur ecran Mac
+window-colorspace = display-p3
+
+# ── Window behavior ───────────────────────────────────────────
 window-width = 500
 window-height = 500
-confirm-close-surface = false
-macos-titlebar-style = tabs
 window-save-state = always
-cursor-style = bar
-command = /bin/zsh
-click-repeat-interval = 500
-auto-update-channel = stable
-shell-integration-features = true
+confirm-close-surface = false
+quit-after-last-window-closed = true
+# Alt fonctionne dans shell/vim/tmux
+macos-option-as-alt = true
+
+# ── Padding ───────────────────────────────────────────────────
 window-padding-x = 10
 window-padding-y = 20
 window-padding-balance = true
-clipboard-paste-protection = true
-copy-on-select = false
+
+# ── Cursor ────────────────────────────────────────────────────
+# barre verticale, fixe (pas de clignotement)
+cursor-style = bar
+cursor-style-blink = false
+cursor-opacity = 0.8
+
+# ── Readability ───────────────────────────────────────────────
+# un peu d'air entre les lignes + contraste minimal texte/fond
+adjust-cell-height = 15%
+minimum-contrast = 1.1
+
+# ── Shell ─────────────────────────────────────────────────────
+command = /bin/zsh
+# no-cursor : laisse cursor-style gerer le curseur
 shell-integration-features = no-cursor
+
+# ── Mouse ─────────────────────────────────────────────────────
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
+click-repeat-interval = 500
+copy-on-select = false
+
+# ── Misc ──────────────────────────────────────────────────────
+clipboard-paste-protection = true
 desktop-notifications = true
+# historique de defilement etendu
+scrollback-limit = 10000000
+auto-update-channel = stable
