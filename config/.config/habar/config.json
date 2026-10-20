@@ -3,6 +3,10 @@
   "language" : "fr",
   "menuShowBadge" : true,
   "menuShowHouse" : true,
+  "mirrorNotify" : [
+    "mobile_app_mathieus_iphone",
+    "send_message"
+  ],
   "sectionOrder" : [
     "security",
     "sensors",
@@ -63,7 +67,7 @@
       "icon" : "figure.walk",
       "id" : "B30F2015-DED8-41BC-A0DC-403060DF9F60",
       "inDashboard" : true,
-      "inMenuBar" : false,
+      "inMenuBar" : true,
       "kind" : "sensor",
       "name" : ""
     },
