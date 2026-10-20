@@ -5,6 +5,7 @@ tap "hashicorp/tap"
 tap "jandedobbeleer/oh-my-posh"
 tap "lihaoyun6/tap"
 tap "manaflow-ai/cmux"
+tap "mathieuletyrant/tap", trusted: true
 tap "mongodb/brew"
 tap "ngrok/ngrok"
 tap "pakerwreah/calendr"
@@ -98,6 +99,8 @@ cask "font-meslo-lg-nerd-font"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Native menu bar app for Home Assistant
+cask "mathieuletyrant/tap/habar", trusted: true
 # App to manage software development and track bugs
 cask "linear"
 # Tool to control external monitor brightness & volume
