@@ -1,0 +1,82 @@
+{
+  "appearance": "auto",
+  "language": "fr",
+  "menuShowBadge": true,
+  "menuShowHouse": true,
+  "sectionOrder": [
+    "security",
+    "sensors",
+    "energy",
+    "toggles",
+    "cameras"
+  ],
+  "showEnergy": true,
+  "tiles": [
+    {
+      "armService": "alarm_arm_away",
+      "color": "",
+      "entityId": "alarm_control_panel.alarmo",
+      "icon": "",
+      "id": "44BE7E05-9BDA-430E-8EC1-4CD838BA4AF0",
+      "inDashboard": true,
+      "inMenuBar": true,
+      "kind": "alarm",
+      "name": ""
+    },
+    {
+      "armService": "alarm_arm_away",
+      "color": "",
+      "entityId": "camera.exterieur_camera_porte_entree",
+      "icon": "",
+      "id": "338F8D47-A503-4129-960C-AB05CFD2EFFB",
+      "inDashboard": true,
+      "inMenuBar": false,
+      "kind": "camera",
+      "name": ""
+    },
+    {
+      "armService": "alarm_arm_away",
+      "color": "",
+      "entityId": "camera.salon_camera_salon",
+      "icon": "",
+      "id": "21689BA9-277B-4BFA-81D8-0B909DD9935A",
+      "inDashboard": true,
+      "inMenuBar": false,
+      "kind": "camera",
+      "name": ""
+    },
+    {
+      "armService": "alarm_arm_away",
+      "color": "",
+      "entityId": "sensor.puissance_totale_appareils_suivis",
+      "icon": "",
+      "id": "462DE85D-042D-44D4-BC83-4191180EFC06",
+      "inDashboard": false,
+      "inMenuBar": true,
+      "kind": "sensor",
+      "name": ""
+    },
+    {
+      "armService": "alarm_arm_away",
+      "color": "pink",
+      "entityId": "binary_sensor.mouvement_maison",
+      "icon": "figure.walk",
+      "id": "B30F2015-DED8-41BC-A0DC-403060DF9F60",
+      "inDashboard": true,
+      "inMenuBar": false,
+      "kind": "sensor",
+      "name": ""
+    },
+    {
+      "armService": "alarm_arm_away",
+      "color": "",
+      "entityId": "binary_sensor.bureau_presence",
+      "icon": "",
+      "id": "5AC2F9FA-172A-4724-AD8F-795D7DBD365A",
+      "inDashboard": true,
+      "inMenuBar": false,
+      "kind": "sensor",
+      "name": ""
+    }
+  ]
+}
