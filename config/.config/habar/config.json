@@ -10,6 +10,7 @@
   "sectionOrder" : [
     "security",
     "sensors",
+    "climate",
     "energy",
     "toggles",
     "cameras"
@@ -62,24 +63,46 @@
     },
     {
       "armService" : "alarm_arm_away",
-      "color" : "pink",
-      "entityId" : "binary_sensor.mouvement_maison",
-      "icon" : "figure.walk",
-      "id" : "B30F2015-DED8-41BC-A0DC-403060DF9F60",
+      "color" : "",
+      "entityId" : "climate.chambre_parents_clim_chambre_parents_climatisation",
+      "icon" : "",
+      "id" : "43687382-B198-4C7F-A88C-49BC803D902D",
       "inDashboard" : true,
-      "inMenuBar" : true,
-      "kind" : "sensor",
+      "inMenuBar" : false,
+      "kind" : "climate",
       "name" : ""
     },
     {
       "armService" : "alarm_arm_away",
       "color" : "",
-      "entityId" : "binary_sensor.bureau_presence",
+      "entityId" : "climate.chambre_enfant_clim_chambre_enfant_climatisation",
       "icon" : "",
-      "id" : "5AC2F9FA-172A-4724-AD8F-795D7DBD365A",
+      "id" : "A6E4BEDD-480A-4D74-A9E8-52204206FA25",
       "inDashboard" : true,
       "inMenuBar" : false,
-      "kind" : "sensor",
+      "kind" : "climate",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "climate.bureau_julie_clim_bureau_julie_climatisation",
+      "icon" : "",
+      "id" : "D59158FE-9C01-4D72-9B5B-C881D0B3F7C3",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "climate",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "climate.salon_clim",
+      "icon" : "",
+      "id" : "F0D7EFB5-FFBE-4F21-8110-744D58A3DCC1",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "climate",
       "name" : ""
     }
   ]
