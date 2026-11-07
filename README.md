@@ -69,6 +69,9 @@ Then restart the terminal.
 
 > [!NOTE]
 > VS Code settings and keybindings stay manual. Extensions come from the Brewfile.
+>
+> Not on Homebrew, install by hand before `macos.sh` (it adds them to login items):
+> [WhatThePort](https://whattheport.dev) and OpalMini (built from [opal-c1-revive](https://github.com/mathieuletyrant/opal-c1-revive)).
 
 ## ⁉️ How to
 
