@@ -1,17 +1,20 @@
+#!/bin/sh
+set -e
+
 # Symlink using Stow first, so ~/.Brewfile exists before brew bundle.
 # No --adopt: the repo is the source of truth (--adopt would overwrite it
 # with whatever happens to be on disk).
-stow git
-stow zsh
-stow config --no-folding
-stow brew
-stow claude --no-folding
+stow -t "$HOME" git
+stow -t "$HOME" zsh
+stow -t "$HOME" config --no-folding
+stow -t "$HOME" brew
+stow -t "$HOME" claude --no-folding
 echo "=> Symlinks created!"
 
 # Node via nvm before brew bundle: the Brewfile's `npm` entries need npm on PATH.
 brew install nvm
 export NVM_DIR="$HOME/.nvm" && mkdir -p "$NVM_DIR"
-. "$(brew --prefix nvm)/nvm.sh"
+. "$(brew --prefix nvm)/nvm.sh" || true  # returns non-zero until a Node exists
 nvm install --lts
 echo "=> Node installed!"
 
