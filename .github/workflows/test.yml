@@ -20,5 +20,8 @@ jobs:
       run: rm -f ~/.gitconfig
     - name: Execute full install
       run:  ./install.sh
+      env:
+        # App Store apps need a signed-in Apple ID (Xcode, Hyperduck)
+        HOMEBREW_BUNDLE_MAS_SKIP: "497799835 6444667067"
     - name: Check zshrc
       run: ./test.sh
