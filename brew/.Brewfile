@@ -1,4 +1,3 @@
-tap "abue-ammar/tinycast", trusted: true
 tap "anomalyco/tap"
 tap "hashicorp/tap"
 tap "jandedobbeleer/oh-my-posh"
@@ -110,7 +109,7 @@ cask "slack"
 # Music streaming service
 cask "spotify"
 # Tiny, fully native launcher, hotkeys, and clipboard history
-cask "abue-ammar/tinycast/tinycast", trusted: true
+cask "tinycast"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "abians.worktree-easy"
