@@ -71,8 +71,6 @@ cask "1password"
 cask "1password-cli"
 # Web browser with Arc's sidebar and Dia's polish
 cask "mantrakp04/tap/ardia", trusted: true
-# Utility to prevent the system from going to sleep
-cask "chai"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Terminal-based AI coding assistant
@@ -92,6 +90,8 @@ cask "ghostty"
 cask "mathieuletyrant/tap/habar", trusted: true
 # Local voice dictation
 cask "hex"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
 # App to manage software development and track bugs
 cask "linear"
 # Tool to control external monitor brightness & volume
