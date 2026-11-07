@@ -91,8 +91,6 @@ cask "discord"
 cask "dockdoor"
 # Utility to show apps badges from the dock in the menu bar
 cask "doll"
-# Collaborative team software
-cask "figma"
 # Markdown previews in Finder QuickLook with diagrams and math
 cask "xykong/tap/flux-markdown", trusted: true
 cask "font-meslo-lg-nerd-font"
@@ -156,7 +154,6 @@ vscode "redhat.vscode-xml"
 vscode "redhat.vscode-yaml"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "typescriptteam.native-preview"
-vscode "vibe-island.terminal-focus"
 vscode "vitest.explorer"
 vscode "vunguyentuan.vscode-css-variables"
 go "github.com/nergie/no-barrel-file"
