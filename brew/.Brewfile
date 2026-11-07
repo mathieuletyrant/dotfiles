@@ -29,6 +29,8 @@ brew "icu4c@78"
 brew "jq"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Mac App Store command-line interface
+brew "mas"
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
 brew "mongosh"
 # Manage multiple Node.js versions
@@ -94,10 +96,14 @@ cask "anomalyco/tap/hex", trusted: true
 cask "keepingyouawake"
 # App to manage software development and track bugs
 cask "linear"
+# GUI for MongoDB
+cask "mongodb-compass"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# NuPhy keyboard configurator
+cask "nuphyio"
 # Simple application that will prevent iTunes or Apple Music from launching
 cask "notunes"
 # Replacement for Docker Desktop
@@ -108,10 +114,14 @@ cask "puremac"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# Native database client
+cask "tablepro"
 # Tiny, fully native launcher, hotkeys, and clipboard history
 cask "tinycast"
 # Open-source code editor
 cask "visual-studio-code"
+mas "Hyperduck", id: 6444667067
+mas "Xcode", id: 497799835
 vscode "abians.worktree-easy"
 vscode "ahmadawais.shades-of-purple"
 vscode "alefragnani.project-manager"
