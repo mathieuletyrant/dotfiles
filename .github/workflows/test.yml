@@ -16,6 +16,8 @@ jobs:
       run: brew install stow
     - name: Clone repository
       uses: actions/checkout@v4
+    - name: Remove runner's preinstalled gitconfig (conflicts with stow)
+      run: rm -f ~/.gitconfig
     - name: Execute full install
       run:  ./install.sh
     - name: Check zshrc
