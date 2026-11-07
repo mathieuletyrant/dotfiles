@@ -1,7 +1,12 @@
-# Essential Configs
-export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
-plugins=()
+# Completion (case-insensitive)
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=50000
+SAVEHIST=50000
+setopt share_history hist_ignore_all_dups hist_reduce_blanks
 
 export LANG=en_US.UTF-8
 export NVM_DIR=~/.nvm
@@ -39,14 +44,15 @@ alias gsw="git switch"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
+export PATH="$HOME/.local/bin:$PATH"
 
-alias claude-mem='bun "$HOME/.claude/plugins/cache/thedotmack/claude-mem/10.6.2/scripts/worker-service.cjs"'
+# claude-mem worker, latest installed plugin version
+claude-mem() {
+  local dirs=($HOME/.claude/plugins/cache/thedotmack/claude-mem/*(N/nOn))
+  bun "$dirs[1]/scripts/worker-service.cjs" "$@"
+}
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
-
-# Created by `pipx` on 2026-06-11 13:06:46
-export PATH="$PATH:/Users/mathieu/.local/bin"
 
 # ZSH (syntax-highlighting must be sourced near the end)
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
