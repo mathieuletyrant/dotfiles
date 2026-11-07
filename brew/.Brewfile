@@ -1,17 +1,10 @@
 tap "abue-ammar/tinycast", trusted: true
 tap "anomalyco/tap"
-tap "entireio/tap"
 tap "hashicorp/tap"
 tap "jandedobbeleer/oh-my-posh"
-tap "lihaoyun6/tap"
-tap "manaflow-ai/cmux"
 tap "mantrakp04/tap", trusted: true
 tap "mathieuletyrant/tap", trusted: true
 tap "mongodb/brew"
-tap "ngrok/ngrok"
-tap "pakerwreah/calendr"
-tap "penso/arbor"
-tap "peonping/tap"
 tap "xykong/tap"
 # Official Amazon AWS command-line interface
 brew "awscli"
@@ -98,6 +91,8 @@ cask "font-meslo-lg-nerd-font"
 cask "ghostty"
 # Native menu bar app for Home Assistant
 cask "mathieuletyrant/tap/habar", trusted: true
+# Local voice dictation
+cask "hex"
 # App to manage software development and track bugs
 cask "linear"
 # Tool to control external monitor brightness & volume
@@ -156,7 +151,6 @@ vscode "streetsidesoftware.code-spell-checker"
 vscode "typescriptteam.native-preview"
 vscode "vitest.explorer"
 vscode "vunguyentuan.vscode-css-variables"
-go "github.com/nergie/no-barrel-file"
 uv "osxphotos"
 npm "@buildinternet/uploads"
 npm "corepack"
