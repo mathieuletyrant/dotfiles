@@ -5,6 +5,7 @@ tap "hashicorp/tap"
 tap "jandedobbeleer/oh-my-posh"
 tap "lihaoyun6/tap"
 tap "manaflow-ai/cmux"
+tap "mantrakp04/tap", trusted: true
 tap "mathieuletyrant/tap", trusted: true
 tap "mongodb/brew"
 tap "ngrok/ngrok"
@@ -58,8 +59,6 @@ brew "stow"
 brew "tig"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# Feature-rich command-line audio/video downloader
-brew "yt-dlp"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -78,6 +77,8 @@ brew "mongodb/brew/mongodb-database-tools", trusted: true
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Web browser with Arc's sidebar and Dia's polish
+cask "mantrakp04/tap/ardia", trusted: true
 # Utility to prevent the system from going to sleep
 cask "chai"
 # Anthropic's official Claude AI desktop app
@@ -97,8 +98,6 @@ cask "xykong/tap/flux-markdown", trusted: true
 cask "font-meslo-lg-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Web browser
-cask "google-chrome"
 # Native menu bar app for Home Assistant
 cask "mathieuletyrant/tap/habar", trusted: true
 # App to manage software development and track bugs
@@ -117,16 +116,10 @@ cask "puremac"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Terminal for orchestrating agents
-cask "superset"
-# Menu bar manager
-cask "thaw"
 # Tiny, fully native launcher, hotkeys, and clipboard history
 cask "abue-ammar/tinycast/tinycast", trusted: true
 # Open-source code editor
 cask "visual-studio-code"
-# JavaScript IDE
-cask "webstorm"
 vscode "abians.worktree-easy"
 vscode "ahmadawais.shades-of-purple"
 vscode "alefragnani.project-manager"

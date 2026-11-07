@@ -1,5 +1,5 @@
 {
-  "appearance" : "dark",
+  "appearance" : "auto",
   "language" : "fr",
   "menuShowBadge" : true,
   "menuShowHouse" : true,
@@ -10,9 +10,9 @@
   "sectionOrder" : [
     "security",
     "sensors",
+    "toggles",
     "climate",
     "energy",
-    "toggles",
     "cameras"
   ],
   "showEnergy" : true,
@@ -48,17 +48,6 @@
       "inDashboard" : true,
       "inMenuBar" : false,
       "kind" : "camera",
-      "name" : ""
-    },
-    {
-      "armService" : "alarm_arm_away",
-      "color" : "",
-      "entityId" : "sensor.puissance_totale_appareils_suivis",
-      "icon" : "",
-      "id" : "462DE85D-042D-44D4-BC83-4191180EFC06",
-      "inDashboard" : false,
-      "inMenuBar" : true,
-      "kind" : "sensor",
       "name" : ""
     },
     {
@@ -100,6 +89,61 @@
       "entityId" : "climate.salon_clim",
       "icon" : "",
       "id" : "F0D7EFB5-FFBE-4F21-8110-744D58A3DCC1",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "climate",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "light.lampadaire_bureau",
+      "icon" : "",
+      "id" : "8D5A3D24-8C21-4A71-ACAD-11914D3E01A9",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "toggle",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "sensor.puissance_totale_appareils_suivis",
+      "icon" : "",
+      "id" : "1226992A-6ECD-4CA1-9CCC-3C800F16A60C",
+      "inDashboard" : false,
+      "inMenuBar" : true,
+      "kind" : "sensor",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "climate.sdb_bas_radiateur",
+      "icon" : "",
+      "id" : "28C04EA9-A623-4A4D-8C50-236B02D686A4",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "climate",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "climate.sdb_haut_seche_serviette",
+      "icon" : "",
+      "id" : "D3BA796E-F84E-4F5D-B2AA-4C6E02DF667E",
+      "inDashboard" : true,
+      "inMenuBar" : false,
+      "kind" : "climate",
+      "name" : ""
+    },
+    {
+      "armService" : "alarm_arm_away",
+      "color" : "",
+      "entityId" : "climate.bureau_mathieu_chauffage",
+      "icon" : "",
+      "id" : "7DDFFDBB-8D6C-4BC4-AC98-1084B823C1FA",
       "inDashboard" : true,
       "inMenuBar" : false,
       "kind" : "climate",

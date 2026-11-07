@@ -85,6 +85,11 @@
         "shortcut": null,
         "alias": null,
         "showInLauncher": false
+      },
+      "summarize": {
+        "shortcut": null,
+        "alias": null,
+        "showInLauncher": false
       }
     }
   },
