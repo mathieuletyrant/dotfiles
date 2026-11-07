@@ -1,4 +1,4 @@
-tap "anomalyco/tap"
+tap "anomalyco/tap", trusted: true
 tap "hashicorp/tap"
 tap "jandedobbeleer/oh-my-posh"
 tap "mantrakp04/tap", trusted: true
@@ -89,7 +89,7 @@ cask "ghostty"
 # Native menu bar app for Home Assistant
 cask "mathieuletyrant/tap/habar", trusted: true
 # Local voice dictation
-cask "hex"
+cask "anomalyco/tap/hex", trusted: true
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # App to manage software development and track bugs
