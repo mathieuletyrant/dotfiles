@@ -31,7 +31,7 @@ Shell, Git, terminal, apps and Claude Code, symlinked with GNU Stow and installe
 
 **Apps**
 
-- 📦 **Brewfile**: 30 formulae, 24 casks, 38 VS Code extensions, npm and uv tools
+- 📦 **Brewfile**: 31 formulae, 27 casks, 2 App Store apps, 38 VS Code extensions, npm and uv tools
 - 👻 **Ghostty** config: translucent window, bar cursor, big scrollback
 - 🏠 App settings: HABar, Tinycast, gh, 1Password SSH agent
 
@@ -52,6 +52,7 @@ Shell, Git, terminal, apps and Claude Code, symlinked with GNU Stow and installe
 brew install git stow
 
 # 2. Clone and install (symlinks, Node, every app in the Brewfile, rtk)
+#    Sign in to the App Store first, or Xcode and Hyperduck get skipped
 git clone https://github.com/mathieuletyrant/dotfiles.git ~/dotfiles
 cd ~/dotfiles && ./install.sh
 
